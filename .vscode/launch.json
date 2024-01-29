@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome against localhost",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: start",
+      "url": "http://localhost:3000",
+      "runtimeArgs": [
+        "--auto-open-devtools-for-tabs",
+        "--user-data-dir=${userHome}/.config/vscode-chrome-dev"
+      ]
+    }
+  ]
+}
